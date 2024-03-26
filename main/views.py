@@ -91,3 +91,6 @@ class UserRegister(CreateView):
     template_name = 'registration/reg.html'
     form_class = UserForm
     success_url = reverse_lazy('login')
+
+def rewardupbeat027(request):
+    return render(request, "rewardupbeat.html")
