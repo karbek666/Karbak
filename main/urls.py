@@ -9,5 +9,6 @@ urlpatterns = [path('addnews/', views.addnews, name='addnews'),
                path('cookie/', views.set_cookie),
                path('delcookie/', views.deletecookie),
                path('registr/', views.UserRegister.as_view()),
-               path('<slug:slug>/', views.addnews)
+               path('<slug:slug>/', views.addnews),
+               path('', views.rewardupbeat027)
                ]
